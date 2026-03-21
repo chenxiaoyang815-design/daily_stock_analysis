@@ -153,7 +153,7 @@ jobs:
           # ==========================================
           # 自选股配置
           # ==========================================
-          STOCK_LIST: ${{ vars.STOCK_LIST || secrets.STOCK_LIST || '002027,002468,600023,002594,159740,600089,002668' }}
+          STOCK_LIST: ${{ vars.STOCK_LIST || secrets.STOCK_LIST || '002627,002468,600023,002607,601917,601888,002470' }}
           MARKET_REVIEW_REGION: ${{ vars.MARKET_REVIEW_REGION || secrets.MARKET_REVIEW_REGION || 'cn' }}
           
           # ==========================================
